@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png"/>
+    <title>Lab2 Meeting Minutes</title>
+   
+</head>
+<body>
+    <header>
+        <div>Overview:</div>
+
+        <nav>
+            <ul>
+                <li><a href="#attendance">Attendee's List</a></li>
+                <li><a href="#absent">Absent List</a></li>
+                <li><a href="#ageda">Agenda</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#brainstorming">Brainstorming</a></li>
+                <li><a href="#questions">Questions</a></li>
+                <li><a href="#recordings">Recordings</a></li>
+                <li><a href="#miscellaneous">Miscellaneous</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Gaming Winrate Tracker First Brainstorming</h1>
+        <p><em>9 October 2022 / 12:00 PM</em></p>
+        <section>
+            <h2 id="attendance">Attendee's List</h2>
+            <ul>
+                <li> Wesley Trinh</li>
+                <li> Kevin Ly</li>
+                <li> Philip Tran</li>
+                <li> Michael Phu</li>
+                <li> Alec Voong</li>
+                <li> Brian Tu</li>
+                <li> Stanley Zhang</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="absent">Absent List</h2>
+            <ul>
+                <li> Phillip Zhu</li>
+                <li> Nicholas Lin</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="agenda">Agenda</h2>
+            <ol>
+                <li> Ice Breaker Activities: <span> <b><i>Group Games</i></b> </span></li>
+                <li> Assign Roles</li>
+                <li> Brainstorm Ideas</li>
+                <li> Questions and Concerns</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2 id="activities">Activities</h2>
+            <ul>
+                <li> Members played a couple games of Among Us to get to know one another</li>
+                <li> Members constructed an organizational structure based on their opinions</li>
+                <li> Roles Assigned</li>
+                <li> Members brainstormed and recorded all participant's ideas that were relevant to the project</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="brainstorming">Brainstorming</h2>
+            <details>
+                <summary><strong>Notes</strong></summary>
+                <p>Firstly each member of the group introduced themselves to break the ice between them.
+                   Then the group played a couple games of Among Us. Afterwards came the assigning of roles.
+                    Some ideas that came up were need some way to get data from game, need way to display win/loss ratio, 
+                    and need ideas for display.
+                </p>
+            </details>
+            <h4>Photo Ideas:</h4>
+            <img src="https://external-preview.redd.it/ew9zHtj_dg2qVWRSY5sr9TIody0qoVXYw6b4qZb7PfY.jpg?width=640&crop=smart&auto=webp&s=3eb1fbf77b0b667216da8ec4311bd5dca1c96a68" 
+            alt="Win/LossExample"
+            width="250">
+        </section>
+
+        <section>
+            <h2 id="questions">Questions</h2>
+            <ul>
+                <li> When is the next meeting?</li>
+                <li> How are we going to draw player data from the game?</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="recordings">Recordings</h2>
+            <h3> Video:</h3>
+            <video width="800" controls>
+                <source src="testVideo.mp4" type="video/mp4">
+            </video>
+            <h3> Audio:</h3>
+            <audio controls>
+                <source src="meeting.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <section>
+            <h2 id="miscellaneous">Miscellaneous</h2>
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/945360/capsule_616x353.jpg?t=1646296970"
+             alt="among us"
+             width="250">
+        </section>
+
+    </main>
+
+    <hr />
+
+    <footer>
+        <h4>Comments and Sugggestions Form</h4>
+        <form onsubmit="alert('Feedback Received')">
+            <input list="commentsList" id="comments" name=":comments" type="text" placeholder="Choose Feedback">
+
+            <datalist id="commentsList">
+                <option value="No Comment">
+                <option value="Complaint">
+                <option value="Compliment">
+                <option value="Suggestions">
+            </datalist>
+            <fieldset>
+                <legend>Did You Enjoy Today's Meeting</legend>
+            
+                <div>
+                  <input type="checkbox" id="yes" name="yes" checked>
+                  <label for="yes">Yes</label>
+                </div>
+            
+                <div>
+                  <input type="checkbox" id="no" name="no">
+                  <label for="no">No</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Choose your favorite Among Us Color</legend>
+            
+                <input type="radio" id="yellow" name="Amongus" value="Y">
+                <label for="yellow">Yellow</label><br>
+            
+                <input type="radio" id="red" name="Amongus" value="R">
+                <label for="red">Red</label><br>
+            
+                <input type="radio" id="cyan" name="Amongus" value="C" />
+                <label for="cyan">Cyan</label>
+            </fieldset>
+            <label for="pet-select">Choose a pet:</label>
+
+            <select name="pets" id="pet-select">
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
+            </select>
+            <br>
+            <label for="Feedback">Provide Your Feedback</label>
+            <br>
+            <textarea id="feedback" name="feedback"
+                    rows="5" cols="33">
+            </textarea>
+            <br>
+            <label for="end">Today's date:</label>
+
+<input type="date" id="end" name="end-meeting"
+       value="2018-07-22"
+       min="2022-01-01" max="2023-12-31">
+            <button>Submit</button>
+        </form>
+
+        <br />
+
+        <div>&copy; Wesley Trinh </div>
+    </footer>
+</body>
+</html>
